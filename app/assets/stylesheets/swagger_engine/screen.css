@@ -276,7 +276,7 @@
   font-size: 25px;
 }
 .swagger-section .swagger-ui-wrap .footer {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 .swagger-section .swagger-ui-wrap p.big,
 .swagger-section .swagger-ui-wrap div.big p {
