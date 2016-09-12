@@ -24,7 +24,7 @@ module SwaggerEngine
     private
 
     def json_url path
-      "#{request.protocol}#{request.host}:#{request.port}#{path}"
+      "#{request.protocol || "http://"}#{request.host}:#{request.port}#{path}"
     end
 
     def load_json_files
